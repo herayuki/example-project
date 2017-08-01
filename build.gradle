@@ -35,3 +35,9 @@ project(':example-batch') {
         compile project(':example-core')
     }
 }
+
+project(':example-api') {
+    dependencies {
+        compile project(':example-core')
+    }
+}
